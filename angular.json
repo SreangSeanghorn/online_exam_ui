@@ -104,10 +104,14 @@
             "styles": [
               "src/styles.sass"
             ],
-            "scripts": []
+            "scripts": [],
+            "karmaConfig": "karma.conf.js"
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e6d50c3a-845a-4c51-a9f8-b48a3f0ffe37"
   }
 }

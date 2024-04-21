@@ -1,0 +1,17 @@
+<form (ngSubmit)="onSubmit()">
+    <div [hidden]="hiddenForm">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+        <label for="confirm_password">Confirm Password</label>
+        <input type="password" id="confirm_password" name="confirm_password">
+        <label for="dob">DOB</label>
+        <input type="date" id="dob" name="dob">
+        <input type="submit" value="Submit">
+    </div>
+</form>
+
+<button (click)="registerButton()" [hidden]="hiddenButton">Register</button>
